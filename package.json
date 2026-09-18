@@ -1,0 +1,22 @@
+{
+  "name": "dumdum-skills",
+  "version": "1.0.0",
+  "description": "AI building for humans -- a Claude Code plugin that helps anyone build real software using plain English.",
+  "author": "Superromz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Superromz/DumDum-Skills.git"
+  },
+  "files": [
+    "dumdum-skills/"
+  ],
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "ai",
+    "no-code",
+    "plain-english",
+    "skills"
+  ]
+}
