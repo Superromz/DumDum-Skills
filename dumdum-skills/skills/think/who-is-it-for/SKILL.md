@@ -21,7 +21,7 @@ Before asking about the project, look in the current workspace for any of these 
 
 **If you find one:** Read it and say something like:
 
-> I found your idea summary — looks like you're building [brief description]. Let's figure out who's going to use this!
+> I found your idea summary. Looks like you're building [brief description]. Let's figure out who's going to use this!
 
 **If you don't find one:** That's fine. Say something like:
 
@@ -33,7 +33,7 @@ Wait for their response.
 
 Ask a simple, open question:
 
-> Who do you imagine using this? Don't overthink it — it could be "just me," "my team at work," "dog owners," "anyone who likes cooking" — whatever comes to mind.
+> Who do you imagine using this? Don't overthink it. It could be "just me," "my team at work," "dog owners," "anyone who likes cooking," whatever comes to mind.
 
 Wait for their response.
 
@@ -52,15 +52,15 @@ If they only name one type of user, that's fine. Don't force them to invent more
 
 For each user type they identified, walk through these questions. Ask them **one at a time**, not all at once:
 
-1. **What would they want to do?** — "When [this type of user] opens your [project], what are they trying to accomplish? What's the first thing they'd want to do?"
+1. **What would they want to do?** "When [this type of user] opens your [project], what are they trying to accomplish? What's the first thing they'd want to do?"
 
-2. **What would frustrate them?** — "What would make [this type of user] annoyed or confused? What's the kind of thing that would make them give up?" (Help them think about this — suggest possibilities if they're stuck. "Maybe if it was too slow? Or if they couldn't find what they were looking for?")
+2. **What would frustrate them?** "What would make [this type of user] annoyed or confused? What's the kind of thing that would make them give up?" (Help them think about this. Suggest possibilities if they're stuck. "Maybe if it was too slow? Or if they couldn't find what they were looking for?")
 
-3. **What would make them happy?** — "What would make [this type of user] think 'wow, this is great'? What would make them come back and use it again?"
+3. **What would make them happy?** "What would make [this type of user] think 'wow, this is great'? What would make them come back and use it again?"
 
 If there are multiple user types, finish exploring one type completely before moving to the next. Say something like:
 
-> Got it — I have a good picture of [user type 1]. Let's talk about [user type 2] now.
+> Got it, I have a good picture of [user type 1]. Let's talk about [user type 2] now.
 
 ### Step 5: Produce the User Guide
 
@@ -70,9 +70,9 @@ Once you've explored all user types, produce a clean document. Use this format:
 
 **User Guide: [Project Name or Description]**
 
-### [User Type 1 — give them a friendly name, like "The Home Cook" or "The Team Leader"]
+### [User Type 1, give them a friendly name, like "The Home Cook" or "The Team Leader"]
 
-**Who they are:** [One or two sentences describing this person in plain, human language. Not a demographic profile — a real description. "Someone who gets home from work at 6pm and needs to figure out dinner with whatever's in the fridge."]
+**Who they are:** [One or two sentences describing this person in plain, human language. Not a demographic profile, but a real description. "Someone who gets home from work at 6pm and needs to figure out dinner with whatever's in the fridge."]
 
 **What they need:** [Bullet list of what they want to accomplish]
 
@@ -98,12 +98,12 @@ Make adjustments as needed. Present the updated version. Repeat until they're sa
 
 Once confirmed, wrap up:
 
-> Now you know WHO you're building for — that's going to make every decision from here easier. Here's what you could do next:
+> Now you know WHO you're building for, and that's going to make every decision from here easier. Here's what you could do next:
 >
-> - Type `/dumdum:break-it-down` to split your idea into small, buildable pieces — now that you know your users, you'll know which pieces matter most
+> - Type `/dumdum:break-it-down` to split your idea into small, buildable pieces. Now that you know your users, you'll know which pieces matter most
 > - Type `/dumdum:sketch-it` to start drawing out what this might look like
 >
-> You can come back to this anytime. As you build, you might discover new types of users you didn't think of — that's totally normal.
+> You can come back to this anytime. As you build, you might discover new types of users you didn't think of. That's totally normal.
 
 ## Important Rules
 
@@ -111,5 +111,5 @@ Once confirmed, wrap up:
 - **Do NOT create any files** beyond the User Guide. No project folders, no config files.
 - **Do NOT use marketing or product management language.** No "target audience," "market segment," "value proposition," "pain points" (say "frustrations" instead), or "user personas" (say "types of users" or "the people who'll use this").
 - **If the user only has one type of user, that's fine.** Don't push them to invent fictional user types. A project built for one person is still valid.
-- **If the user says "everyone," gently help them narrow down.** Say something like: "Let's think about who would use it FIRST — like, who would be the very first person to try it out? That's usually more helpful than trying to build for everyone at once."
+- **If the user says "everyone," gently help them narrow down.** Say something like: "Let's think about who would use it FIRST, like, who would be the very first person to try it out? That's usually more helpful than trying to build for everyone at once."
 - **Save the final confirmed User Guide** by writing it to a file at the project root called `user-guide.md` ONLY after the user confirms they're happy with it. Ask before saving.

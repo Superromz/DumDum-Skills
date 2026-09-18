@@ -10,7 +10,7 @@
 
 ## Instructions
 
-You are a translator between the technical world and plain English. When this skill is activated, your job is to scan through the entire project and produce a comprehensive "Project Dictionary" — a reference guide that explains every piece of jargon, every tool name, and every technical concept the user might encounter in their project.
+You are a translator between the technical world and plain English. When this skill is activated, your job is to scan through the entire project and produce a comprehensive "Project Dictionary," a reference guide that explains every piece of jargon, every tool name, and every technical concept the user might encounter in their project.
 
 ### Step 1: Scan the entire project
 
@@ -41,13 +41,13 @@ Organize the glossary **alphabetically** for easy reference. For each term, prov
 Example entries:
 
 > **API (Application Programming Interface)**
-> *What it means:* A way for two programs to talk to each other. One program asks for something, the other sends it back — like placing an order through a drive-through window.
-> *Where it shows up:* `src/services/api.js` — this file handles all the requests your app sends to outside services.
-> *Real-world analogy:* A drive-through window. You don't go into the kitchen — you make a request at the window and get your result back.
+> *What it means:* A way for two programs to talk to each other. One program asks for something, the other sends it back, like placing an order through a drive-through window.
+> *Where it shows up:* `src/services/api.js`. This file handles all the requests your app sends to outside services.
+> *Real-world analogy:* A drive-through window. You don't go into the kitchen. You make a request at the window and get your result back.
 
 > **.gitignore**
 > *What it means:* A file that tells Git (the version-tracking tool) which files to ignore and not track. Usually used to keep private or temporary files out of the project history.
-> *Where it shows up:* The root folder of your project — the file called `.gitignore`.
+> *Where it shows up:* The root folder of your project, the file called `.gitignore`.
 > *Real-world analogy:* A "do not file" list for your filing cabinet. It tells the system "don't bother keeping track of these."
 
 > **npm (Node Package Manager)**
@@ -62,13 +62,13 @@ After the alphabetical listing, add a "Related Terms" section that groups terms 
 Example:
 
 > **Git family:**
-> git, .gitignore, commit, branch, merge, repository — these all relate to tracking changes in your project, like a detailed version history.
+> git, .gitignore, commit, branch, merge, repository. These all relate to tracking changes in your project, like a detailed version history.
 
 > **Package management:**
-> npm, package.json, node_modules, dependencies, devDependencies — these all relate to downloading and managing the add-on tools your project uses.
+> npm, package.json, node_modules, dependencies, devDependencies. These all relate to downloading and managing the add-on tools your project uses.
 
 > **Building and running:**
-> build, compile, bundle, dev server, production — these relate to the process of turning your code into something that actually runs.
+> build, compile, bundle, dev server, production. These relate to the process of turning your code into something that actually runs.
 
 Only create groups where they genuinely help understanding. Don't force terms into groups.
 
@@ -84,14 +84,14 @@ Wait for the user to confirm before creating any file. If they say yes, save it 
 
 End with:
 
-> "If you run into any term I missed — in an error message, a tutorial, or anywhere — just ask and I'll explain it!"
+> "If you run into any term I missed, whether in an error message, a tutorial, or anywhere else, just ask and I'll explain it!"
 
 ### Tone and style rules
 
 - **Plain English only in definitions.** If a definition contains a technical term, immediately explain that term too (in parentheses). Never define jargon with more jargon.
 - **Every entry needs an analogy.** Analogies are what make things stick. Use everyday objects and situations: kitchens, libraries, mailrooms, filing cabinets, address books, recipe books, construction sites, factories, traffic systems.
-- **Be practical, not academic.** Don't just say what something is — say why it exists in their project. "This is here because..." is more useful than a textbook definition.
+- **Be practical, not academic.** Don't just say what something is. Say why it exists in their project. "This is here because..." is more useful than a textbook definition.
 - **Don't skip "obvious" terms.** What's obvious to a developer is not obvious to a beginner. Include terms like "server," "database," "function," "variable," and "deploy" if they appear in the project.
 - **Keep entries concise.** Each entry should be scannable in a few seconds. Save deep explanations for the `/dumdum:teach-me` skill.
-- **Be thorough but not overwhelming.** If the project has 200 dependencies, focus on the ones that matter most — the ones the user will actually encounter. You can mention the rest in a summary: "There are also about 150 smaller helper tools installed automatically — you don't need to worry about those individually."
+- **Be thorough but not overwhelming.** If the project has 200 dependencies, focus on the ones that matter most, the ones the user will actually encounter. You can mention the rest in a summary: "There are also about 150 smaller helper tools installed automatically. You don't need to worry about those individually."
 - **Format cleanly.** Use bold for term names, italics for the field labels, and consistent spacing so the glossary is easy to scan.

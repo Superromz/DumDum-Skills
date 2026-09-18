@@ -1,7 +1,7 @@
 {
   "name": "dumdum-skills",
   "version": "1.0.0",
-  "description": "AI building for humans — plain English skills that help anyone build real software with Claude Code. No jargon, no assumptions, everything explained.",
+  "description": "AI building for humans. Plain English skills that help anyone build real software with Claude Code. No jargon, no assumptions, everything explained.",
   "skills": [
     {
       "name": "dumdum:idea",

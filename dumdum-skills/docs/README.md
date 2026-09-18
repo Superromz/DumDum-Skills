@@ -32,7 +32,7 @@ DumDum Skills is a Claude Code plugin. To install it:
 # Option A: Copy it
 cp -r dumdum-skills/ ~/.claude/plugins/dumdum-skills
 
-# Option B: Symlink it (recommended — updates automatically)
+# Option B: Symlink it (recommended, updates automatically)
 ln -s /path/to/dumdum-skills ~/.claude/plugins/dumdum-skills
 ```
 

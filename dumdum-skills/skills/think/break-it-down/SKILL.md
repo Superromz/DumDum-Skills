@@ -2,7 +2,7 @@
 
 ## What This Skill Does
 
-You are helping a non-technical user take their idea and split it into small, buildable pieces — then rank those pieces by importance. This is one of the most valuable things you can do for a beginner, because big ideas feel overwhelming. Small pieces feel doable. Your job is to make the big thing feel like a series of small, achievable steps.
+You are helping a non-technical user take their idea and split it into small, buildable pieces, then rank those pieces by importance. This is one of the most valuable things you can do for a beginner, because big ideas feel overwhelming. Small pieces feel doable. Your job is to make the big thing feel like a series of small, achievable steps.
 
 ## How You Must Behave
 
@@ -32,7 +32,7 @@ Before asking about the project, look in the current workspace for any of these 
 
 > Hey! I'm going to help you break your idea into small, buildable pieces. That way, instead of staring at one big overwhelming thing, you'll have a clear list of smaller things you can tackle one at a time.
 >
-> First — tell me what you want to build. You can describe it however you like. A sentence, a paragraph, a ramble — all good.
+> First, tell me what you want to build. You can describe it however you like. A sentence, a paragraph, a ramble, all good.
 
 Wait for their response.
 
@@ -40,7 +40,7 @@ Wait for their response.
 
 Before you start listing pieces, set expectations:
 
-> Here's what I'm going to do: I'm going to take your idea and split it into small pieces. Each piece is something that can be built and tested on its own. Think of it like building with blocks — each block does one thing, and together they make the whole thing.
+> Here's what I'm going to do: I'm going to take your idea and split it into small pieces. Each piece is something that can be built and tested on its own. Think of it like building with blocks. Each block does one thing, and together they make the whole thing.
 >
 > I'll list out what I think the pieces are, and then you can tell me if I'm missing anything or if something doesn't belong.
 
@@ -49,23 +49,23 @@ Before you start listing pieces, set expectations:
 Based on the idea summary (or what the user told you), break the project into individual features or pieces. Each piece should be:
 
 - **Small enough to build and test on its own.** If a piece feels too big, split it further.
-- **Described in plain English.** Not "implement authentication" — instead, "a way for people to create an account and log in."
+- **Described in plain English.** Not "implement authentication." Instead, "a way for people to create an account and log in."
 - **Understandable to someone who has never built software.** Each description should make sense to the user.
 
 Present the list like this:
 
 > Here's how I'd break your idea into pieces:
 >
-> 1. **[Piece name]** — [One sentence description of what this piece does, written in plain English]
-> 2. **[Piece name]** — [Description]
-> 3. **[Piece name]** — [Description]
+> 1. **[Piece name]**: [One sentence description of what this piece does, written in plain English]
+> 2. **[Piece name]**: [Description]
+> 3. **[Piece name]**: [Description]
 > ...
 
-Aim for 5 to 10 pieces. If the idea is very simple, 3 to 5 is fine. If it's very complex, go up to 12, but no more — if there are more than 12, group related pieces together.
+Aim for 5 to 10 pieces. If the idea is very simple, 3 to 5 is fine. If it's very complex, go up to 12, but no more. If there are more than 12, group related pieces together.
 
 Then ask:
 
-> Does this list feel right? Is there anything missing? Anything on here that doesn't belong? Don't worry about the order yet — we'll do that next.
+> Does this list feel right? Is there anything missing? Anything on here that doesn't belong? Don't worry about the order yet. We'll do that next.
 
 Wait for their response and adjust the list as needed.
 
@@ -75,13 +75,13 @@ Now walk the user through prioritizing. Explain the three levels:
 
 > Let's figure out what to build first. I'm going to put each piece into one of three groups:
 >
-> **Must Have** — Without these, the project doesn't work at all. These are the absolute basics.
+> **Must Have**: Without these, the project doesn't work at all. These are the absolute basics.
 >
-> **Should Have** — These make the project actually useful and enjoyable. You want them, but the project could technically work without them for a little while.
+> **Should Have**: These make the project actually useful and enjoyable. You want them, but the project could technically work without them for a little while.
 >
-> **Nice to Have** — These are the extras. They make things better, but you can add them later without anyone missing them at first.
+> **Nice to Have**: These are the extras. They make things better, but you can add them later without anyone missing them at first.
 
-Go through the list and suggest which category each piece belongs in. Be opinionated — tell the user what you think and why:
+Go through the list and suggest which category each piece belongs in. Be opinionated. Tell the user what you think and why:
 
 > I'd put [Piece 1] in "Must Have" because without it, [reason]. And I'd put [Piece 5] in "Nice to Have" because [reason]. What do you think?
 
@@ -99,22 +99,22 @@ Once the ranking is agreed on, produce a clean, final document:
 
 These are the pieces to build first. Without them, nothing else matters.
 
-- [ ] **[Piece name]** — [Description]
-- [ ] **[Piece name]** — [Description]
+- [ ] **[Piece name]**: [Description]
+- [ ] **[Piece name]**: [Description]
 
 ### Should Have (Build Next)
 
 Once the basics work, these are what make it actually useful.
 
-- [ ] **[Piece name]** — [Description]
-- [ ] **[Piece name]** — [Description]
+- [ ] **[Piece name]**: [Description]
+- [ ] **[Piece name]**: [Description]
 
 ### Nice to Have (Add Later)
 
 These make it even better, but save them for after the important stuff is working.
 
-- [ ] **[Piece name]** — [Description]
-- [ ] **[Piece name]** — [Description]
+- [ ] **[Piece name]**: [Description]
+- [ ] **[Piece name]**: [Description]
 
 ---
 
@@ -134,14 +134,14 @@ Make adjustments as needed. Present the updated version. Repeat until they're sa
 
 Once confirmed, wrap up:
 
-> You now have a clear plan of what to build and in what order. That's a huge step — most projects fail because people try to build everything at once instead of starting small.
+> You now have a clear plan of what to build and in what order. That's a huge step. Most projects fail because people try to build everything at once instead of starting small.
 >
 > Here's what you could do next:
 >
 > - Type `/dumdum:steps` to turn this checklist into a step-by-step build plan with more detail on how to tackle each piece
 > - Type `/dumdum:start-project` to jump in and start building the first piece right now
 >
-> There's no wrong choice. You can also come back and update this checklist anytime — it's normal for priorities to shift as you build.
+> There's no wrong choice. You can also come back and update this checklist anytime. It's normal for priorities to shift as you build.
 
 ## Important Rules
 

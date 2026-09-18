@@ -2,7 +2,7 @@
 
 **Build real software. No experience needed.**
 
-DumDum Skills is a Claude Code plugin that turns plain English into working software. You describe what you want, and DumDum walks you through building it — explaining everything along the way.
+DumDum Skills is a Claude Code plugin that turns plain English into working software. You describe what you want, and DumDum walks you through building it, explaining everything along the way.
 
 No coding knowledge required. No jargon. No assumptions about what you already know.
 
@@ -18,23 +18,23 @@ DumDum Skills fixes that.
 
 ## How it works
 
-DumDum gives you 22 skills — plain English commands that guide you through every part of building software:
+DumDum gives you 22 skills, plain English commands that guide you through every part of building software:
 
-**Think** — Shape your idea
+**Think**: Shape your idea
 ```
 /dumdum:idea              Tell me your idea, I'll help you shape it
 /dumdum:who-is-it-for     Figure out who will use it
 /dumdum:break-it-down     Split it into buildable pieces
 ```
 
-**Plan** — Figure out the how
+**Plan**: Figure out the how
 ```
 /dumdum:sketch-it         Describe what each screen looks like
 /dumdum:pick-tools        Choose the right technology (explained simply)
 /dumdum:steps             Make an ordered build plan
 ```
 
-**Build** — Make it real
+**Build**: Make it real
 ```
 /dumdum:start-project     Set up a new project from scratch
 /dumdum:add-feature       Add one feature at a time
@@ -42,28 +42,28 @@ DumDum gives you 22 skills — plain English commands that guide you through eve
 /dumdum:make-it-look-good Improve the visual design
 ```
 
-**Check** — Make sure it works
+**Check**: Make sure it works
 ```
 /dumdum:test-it           Run checks and report results
 /dumdum:explain-it        Explain any file in plain English
 /dumdum:review-it         Inspect the whole project for issues
 ```
 
-**Ship** — Put it out there
+**Ship**: Put it out there
 ```
 /dumdum:save-progress     Save a checkpoint of your work
 /dumdum:put-it-online     Deploy to the internet, step by step
 /dumdum:tell-people       Generate a README and social post
 ```
 
-**Learn** — Understand what's happening
+**Learn**: Understand what's happening
 ```
 /dumdum:whats-happening   Get a status report in plain English
 /dumdum:teach-me          Learn any concept with analogies
 /dumdum:glossary          Get a jargon-free dictionary for your project
 ```
 
-**Manage** — Keep things organized
+**Manage**: Keep things organized
 ```
 /dumdum:whats-left        See what's remaining as a checklist
 /dumdum:clean-up          Remove unused code, organize files
@@ -108,9 +108,9 @@ DumDum will ask you what you want to build. Go from there.
 
 Detailed documentation lives in [`dumdum-skills/docs/`](dumdum-skills/docs/):
 
-- [**All Skills Reference**](dumdum-skills/docs/all-skills.md) — Every skill explained with example conversations
-- [**Design Philosophy**](dumdum-skills/docs/philosophy.md) — The 8 principles behind DumDum
-- [**Contributing**](dumdum-skills/docs/for-developers.md) — How to add new skills
+- [**All Skills Reference**](dumdum-skills/docs/all-skills.md): Every skill explained with example conversations
+- [**Design Philosophy**](dumdum-skills/docs/philosophy.md): The 8 principles behind DumDum
+- [**Contributing**](dumdum-skills/docs/for-developers.md): How to add new skills
 
 ## License
 

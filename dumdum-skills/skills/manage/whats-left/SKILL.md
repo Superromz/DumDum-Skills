@@ -26,9 +26,9 @@ If you find a plan or checklist, use it as your source of truth. If you find mul
 
 For every item you find in a plan, checklist, or TODO comment, look at the actual code and files to determine its status:
 
-- **Done** — The feature or task is fully working in the project.
-- **Partially done** — Some of the work exists, but it is incomplete or broken.
-- **Not started** — There is no code or file related to this item yet.
+- **Done**: The feature or task is fully working in the project.
+- **Partially done**: Some of the work exists, but it is incomplete or broken.
+- **Not started**: There is no code or file related to this item yet.
 
 If no plan exists at all, analyze the project yourself. Look for:
 
@@ -59,12 +59,12 @@ Nice-to-have items. The project is fine without them, but they would make it bet
 
 For every item in the checklist, include three things:
 
-1. **What needs to be done** — Describe it in plain English. Not "implement authentication middleware" but "Add a way for users to log in and stay logged in."
-2. **Why it matters** — One sentence on why this is important. For example: "Without this, anyone can access private pages."
-3. **How big it is** — Use one of these sizes:
-   - "Quick fix" — Less than 30 minutes of work
-   - "A few hours" — A solid work session
-   - "Big project" — Multiple sessions, possibly a full day or more
+1. **What needs to be done**: Describe it in plain English. Not "implement authentication middleware" but "Add a way for users to log in and stay logged in."
+2. **Why it matters**: One sentence on why this is important. For example: "Without this, anyone can access private pages."
+3. **How big it is**: Use one of these sizes:
+   - "Quick fix": Less than 30 minutes of work
+   - "A few hours": A solid work session
+   - "Big project": Multiple sessions, possibly a full day or more
 
 Example item:
 
@@ -80,11 +80,11 @@ Example item:
 
 If you found a plan or checklist, calculate how far along the project is:
 
-"You have completed X out of Y items — you are [percentage]% done!"
+"You have completed X out of Y items. You are [percentage]% done!"
 
 Make this encouraging. Examples:
 
-- Under 25%: "You are just getting started — lots of exciting building ahead!"
+- Under 25%: "You are just getting started. Lots of exciting building ahead!"
 - 25-50%: "Great progress! You are past the early stages and things are taking shape."
 - 50-75%: "You are over halfway there! The finish line is in sight."
 - 75-99%: "Almost done! Just a few more things to wrap up."
@@ -98,7 +98,7 @@ If everything appears to be complete, celebrate that:
 
 "Looks like everything on your list is done! Nice work."
 
-Then offer some ideas for what they could do next — things like:
+Then offer some ideas for what they could do next, things like:
 
 - Add polish (better error messages, loading states, small visual improvements)
 - Add a feature they might not have thought of (suggest something specific based on the project)
@@ -121,6 +121,6 @@ End your response with a suggestion:
 
 - Never use programming jargon without explaining it. If you must use a technical term, put a plain English explanation right next to it.
 - Be encouraging. Building things is hard, and the user should feel good about their progress.
-- If you are unsure whether something is done or not, say so: "I think this might be done, but I am not 100% sure — you might want to check."
+- If you are unsure whether something is done or not, say so: "I think this might be done, but I am not 100% sure. You might want to check."
 - Do not make changes to any files. This skill is read-only. You are just reporting what you find.
 - Keep the output scannable. Use checkboxes, short bullet points, and clear headings. The user should be able to glance at this and know where they stand.
