@@ -1,0 +1,117 @@
+{
+  "name": "dumdum-skills",
+  "version": "1.0.0",
+  "description": "AI building for humans — plain English skills that help anyone build real software with Claude Code. No jargon, no assumptions, everything explained.",
+  "skills": [
+    {
+      "name": "dumdum:idea",
+      "description": "Tell me your idea and I'll help you shape it into something clear and buildable.",
+      "path": "skills/think/idea/SKILL.md"
+    },
+    {
+      "name": "dumdum:who-is-it-for",
+      "description": "Figure out who will use your project and what they need from it.",
+      "path": "skills/think/who-is-it-for/SKILL.md"
+    },
+    {
+      "name": "dumdum:break-it-down",
+      "description": "Split your idea into small, buildable pieces ranked by importance.",
+      "path": "skills/think/break-it-down/SKILL.md"
+    },
+    {
+      "name": "dumdum:sketch-it",
+      "description": "Describe what each screen or page looks like in plain language.",
+      "path": "skills/plan/sketch-it/SKILL.md"
+    },
+    {
+      "name": "dumdum:pick-tools",
+      "description": "Choose the right technology for your project, explained in plain English.",
+      "path": "skills/plan/pick-tools/SKILL.md"
+    },
+    {
+      "name": "dumdum:steps",
+      "description": "Turn your feature list into an ordered build plan.",
+      "path": "skills/plan/steps/SKILL.md"
+    },
+    {
+      "name": "dumdum:start-project",
+      "description": "Set up a new project from scratch and get something running.",
+      "path": "skills/build/start-project/SKILL.md"
+    },
+    {
+      "name": "dumdum:add-feature",
+      "description": "Add one new feature to your project, step by step.",
+      "path": "skills/build/add-feature/SKILL.md"
+    },
+    {
+      "name": "dumdum:fix-problem",
+      "description": "Find and fix what's going wrong, explained in plain English.",
+      "path": "skills/build/fix-problem/SKILL.md"
+    },
+    {
+      "name": "dumdum:make-it-look-good",
+      "description": "Improve the visual design of your project.",
+      "path": "skills/build/make-it-look-good/SKILL.md"
+    },
+    {
+      "name": "dumdum:test-it",
+      "description": "Check if your project works and report results in plain language.",
+      "path": "skills/check/test-it/SKILL.md"
+    },
+    {
+      "name": "dumdum:explain-it",
+      "description": "Point at any file and get a plain English explanation of what it does.",
+      "path": "skills/check/explain-it/SKILL.md"
+    },
+    {
+      "name": "dumdum:review-it",
+      "description": "Look at your whole project for problems or missing pieces.",
+      "path": "skills/check/review-it/SKILL.md"
+    },
+    {
+      "name": "dumdum:save-progress",
+      "description": "Save a checkpoint of your work with a clear description.",
+      "path": "skills/ship/save-progress/SKILL.md"
+    },
+    {
+      "name": "dumdum:put-it-online",
+      "description": "Walk through putting your project on the internet, step by step.",
+      "path": "skills/ship/put-it-online/SKILL.md"
+    },
+    {
+      "name": "dumdum:tell-people",
+      "description": "Generate a README, description, and social post for sharing your project.",
+      "path": "skills/ship/tell-people/SKILL.md"
+    },
+    {
+      "name": "dumdum:whats-happening",
+      "description": "Get a plain English summary of your project's current state.",
+      "path": "skills/learn/whats-happening/SKILL.md"
+    },
+    {
+      "name": "dumdum:teach-me",
+      "description": "Learn any concept from your project using analogies and examples.",
+      "path": "skills/learn/teach-me/SKILL.md"
+    },
+    {
+      "name": "dumdum:glossary",
+      "description": "Get a jargon-free dictionary of every technical term in your project.",
+      "path": "skills/learn/glossary/SKILL.md"
+    },
+    {
+      "name": "dumdum:whats-left",
+      "description": "See remaining work as a simple checklist with priorities.",
+      "path": "skills/manage/whats-left/SKILL.md"
+    },
+    {
+      "name": "dumdum:clean-up",
+      "description": "Remove unused code and organize files, with explanations.",
+      "path": "skills/manage/clean-up/SKILL.md"
+    },
+    {
+      "name": "dumdum:take-notes",
+      "description": "Save a note about a decision, idea, or reminder into a project journal.",
+      "path": "skills/manage/take-notes/SKILL.md"
+    }
+  ]
+}
